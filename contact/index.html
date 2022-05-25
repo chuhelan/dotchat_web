@@ -2,17 +2,15 @@
 <html lang="zh">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dotchat | 注册</title>
-    <script src="js/register.js"></script>
-    <script src="js/basic_function.js"></script>
-    <link href="./css/style.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dotchat 中文官网</title>
+    <link href="/css/style.css" rel="stylesheet" />
 </head>
+<script src="/js/basic_function.js"></script>
 
 <body>
-
     <!-- banner -->
     <div class="bg-white pb-6 sm:pb-8 lg:pb-12" id="full_banner">
         <!-- banner - start -->
@@ -51,7 +49,7 @@
                 <!-- logo - start -->
                 <a href="/" class="inline-flex items-center text-black-800 text-2xl md:text-3xl font-bold gap-2.5"
                     aria-label="logo">
-                    <img src="img/index/logo.svg" class="w-32" />
+                    <img src="/img/index/logo.svg" class="w-32" />
                 </a>
                 <!-- logo - end -->
 
@@ -59,12 +57,14 @@
                 <nav class="hidden lg:flex gap-12">
                     <a href="/"
                         class="text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">首页</a>
-                    <a href="/login/index.html"
+                    <a href="/login.html"
                         class="text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">登录</a>
+                    <a href="/home/index.html"
+                        class="text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">主页</a>
                     <a href="/support/index.html"
                         class="text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">支持</a>
                     <a href="/contact/index.html"
-                        class="text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">联系我们</a>
+                        class="text-indigo-500 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">联系我们</a>
                 </nav>
                 <!-- nav - end -->
 
@@ -89,43 +89,42 @@
     </div>
 
     <!-- component -->
-    <!-- Create by joker banny -->
-    <div class=" bg-white flex justify-center items-center mb-20">
-        <div class="lg:w-2/5 md:w-1/2 w-2/3">
-            <form class="bg-white p-10 rounded-2xl border-2 border-blue-200">
-                <h1 class="text-center text-2xl mb-6 text-gray-600 font-bold font-sans">注册</h1>
-                <div>
-                    <label class="text-gray-800 font-semibold block my-3 text-md" for="username">用户名</label>
-                    <input class="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none" type="text"
-                        name="user_name" id="user_name" placeholder="输入您的用户名" />
+    <div class="py-4">
+        <div class="container mx-auto flex flex-col md:flex-row my-1 md:my-2">
+            <div class="flex flex-col w-full lg:w-2/5 p-8">
+                <p class="text-3xl md:text-5xl text-blue-500 my-4 leading-relaxed md:leading-snug">联系我们
+                </p>
+                <p class="font-sans text-sm md:text-lg my-2 md:my-4"><svg class="inline-block fill-current mr-2"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
+                    </svg>江苏省南京市栖霞区羊山北路1号 南京工业职业技术大学</p>
+                <p class="font-sans text-sm md:text-lg my-2 md:my-4"><svg class="inline-block fill-current mr-2"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z" />
+                    </svg> <a href="mailto:service@chuhelan.com<">service@chuhelan.com</a></p>
+                <p class="font-sans text-sm md:text-lg my-2 md:my-4"><svg class="inline-block fill-current mr-2"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" />
+                    </svg><a href="'tel:'+ '18761882997' "></a>+86 18761882997</p> <br> <br>
+                <p class="font-sans text-sm md:text-lg my-2 md:my-4">您为我们发送的任何邮件，我们将会在一至两个工作日内给您回复！
+                </p>
+            </div>
+            <div class=" flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12">
+                <div class="container">
+                    <div class="relative flex flex-col min-w-0 break-words w-full">
+                        <div class="flex-auto p-5 lg:p-10">
+                            <img src="https://image.chuhelan.com/i/2022/05/23/628b991a5a9dd.png" alt="contact image">
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <label class="text-gray-800 font-semibold block my-3 text-md" for="username">手机号</label>
-                    <input class="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none" type="text"
-                        name="user_phonenumber" id="user_phonenumber" placeholder="输入手机号码" />
-                </div>
-                <div>
-                    <label class="text-gray-800 font-semibold block my-3 text-md" for="email">Email地址</label>
-                    <input class="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none" type="email"
-                        name="user_email" id="user_email" placeholder="domain@abc.com" />
-                </div>
-                <div>
-                    <label class="text-gray-800 font-semibold block my-3 text-md" for="password">密码</label>
-                    <input class="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none" type="password"
-                        name="user_password" id="user_password" placeholder="输入密码" />
-                </div>
-                <div>
-                    <label class="text-gray-800 font-semibold block my-3 text-md" for="confirm">确认密码</label>
-                    <input class="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none" type="password"
-                        name="confirm" id="password_confirm" placeholder="确认密码" />
-                </div>
-                <button type="submit" onclick="replace_after_register(); return false;"
-                    class="w-full mt-6 bg-indigo-600 rounded-lg px-4 py-2 text-lg text-white tracking-wide font-semibold font-sans">注册</button>
-                <button type="button" onclick="window.location.href = '/login.html'" class=" w-full mt-6 mb-3 bg-indigo-100 rounded-lg px-4 py-2 text-lg text-gray-800 tracking-wide
-                    font-semibold font-sans">登录</button>
-            </form>
+            </div>
         </div>
     </div>
+
+
 
     <!-- footer -->
 
@@ -139,10 +138,10 @@
                     </div>
 
                     <form class="w-full md:max-w-md flex gap-2">
-                        <input placeholder="电子邮件地址"
+                        <input placeholder="电子邮件地址" id="send_mail_input" type="email"
                             class="w-full flex-1 bg-indigo-400 text-white placeholder-indigo-100 border border-white focus:ring ring-indigo-300 rounded outline-none transition duration-100 px-3 py-2" />
 
-                        <button
+                        <button onclick="send_mail_button();return false;"
                             class="inline-block bg-white hover:bg-gray-100 focus-visible:ring ring-indigo-300 text-indigo-500 active:text-indigo-600 text-sm md:text-base font-semibold text-center rounded outline-none transition duration-100 px-8 py-2">发送</button>
                     </form>
                 </div>
@@ -159,7 +158,7 @@
                             <a href="/"
                                 class="inline-flex items-center text-black-800 text-2xl md:text-3xl font-bold gap-2.5"
                                 aria-label="logo">
-                                <img src="img/index/logo.svg" class="w-32" />
+                                <img src="/img/index/logo.svg" class="w-32" />
                             </a>
                             <!-- logo - end -->
                         </div>
@@ -290,6 +289,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
